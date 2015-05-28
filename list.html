@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+		<title>The List</title>
+
+		<!-- Meta Tags -->
+		<meta charset="utf-8"/>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="images/favicon.ico">
+
+		<!-- Stylesheets -->
+		<link href='http://fonts.googleapis.com/css?family=Rancho' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,300' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="styles/style.css"/> 
+
+		<!-- JavaScript -->
+		<script type="text/javascript" src="function/jquery-1.10.2.min.js"></script>
+		<script type="text/javascript" src="function/jquery-ui.js"></script>
+		<script type="text/javascript" src="function/action.js"></script>
+	
+	</head>
+	<body>
+		<section class="left">
+			<header>
+				<a href="index.html" class="logo"></a>
+				<h1>The List</h1>
+			</header>
+			<div class="count-container">
+				<hr>
+				<p class="count"><span id="do">0</span> DO</p>
+				<hr>
+				<p class="count"><span id="done">0</span> DONE</p>
+				<hr>
+				<p class="count"><span id="total">0</span> TOTAL</p>
+				<hr>
+			</div>
+			<footer>
+				<p>&copy; 2015 <span class="love">  </span>  <a href="#">Johnny Blaze</a></p>
+			</footer>
+		</section>
+
+		<section class="right"> <!-- App Section -->
+			<form>
+				<input type="text" name="newItem" id="newItem" class="textBox" autocomplete="off" placeholder="Type here.." required/>
+			</form>
+			
+			<ul id="list" class="listitem">
+				<li class="item">
+					Johnny Blaze
+				</li>
+				
+			</ul>
+
+		</section>
+	</body>
+</html>
