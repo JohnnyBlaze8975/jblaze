@@ -637,6 +637,14 @@ input.search-form:hover {
   padding: 30px;
 }
 
+.recent-work-wrap .overlay h3 a:hover {
+color: #000;
+}
+
+.recent-work-wrap .overlay .preview:hover {
+color: #000;
+}
+
 .recent-work-wrap .overlay .preview {
   bottom: 0;
   display: inline-block;
